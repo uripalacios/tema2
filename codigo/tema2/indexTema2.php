@@ -50,9 +50,11 @@
             Estamos en clase haciendo php 
             y las interfaces que hacemos 
             son muy bonitas y quiero escribir "con comillas"
-            \n cosas raras
+            \n cosas raras <br> lasjdh
             MITEXTO;
         ?>
+        <h2>Variables</h2>
+        <a href="Variables.php">Todo Variables</a>
     </main>
     <footer>&copy urielpalacios</footer>
 </body>
