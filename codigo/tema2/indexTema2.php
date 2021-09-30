@@ -15,7 +15,7 @@
     </header>
     <main>
         <a href=""></a>
-        <?php
+        <?
             phpinfo();
         ?>
     </main>
