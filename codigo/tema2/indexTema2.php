@@ -55,6 +55,9 @@
         ?>
         <h2>Variables</h2>
         <a href="Variables.php">Todo Variables</a>
+
+        <h2>Ambito variables</h2>
+        <a href="Ambito.php">Ambito</a>
     </main>
     <footer>&copy urielpalacios</footer>
 </body>

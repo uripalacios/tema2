@@ -20,7 +20,7 @@
 
         //Variable de saludo que es la que se escribe
         // variable de variable
-        $saludo="idiomas_".$idiomaRecogido ;
+        $saludo="idiomas_".$idiomaRecogido ;       
         echo $$saludo;
         
     ?>
