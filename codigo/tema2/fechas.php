@@ -33,10 +33,15 @@
         echo $cumple;
         //mes/dia/año
         $cumple2 = strtotime('07/27/01');
+        //letra
+        $cumple3 = strtotime('27 July 2001');
+
         echo "<p>Cumpleaños Ismael comprobacion de la fecha</p>";
         echo date('d-m-y h:i:s', $cumple);
         echo "<p>";
         echo date('d-m-y h:i:s', $cumple2);
+        echo "<p>";
+        echo date('d-m-y h:i:s', $cumple3);
     ?>
 
     <br>
