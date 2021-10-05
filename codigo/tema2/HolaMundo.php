@@ -12,6 +12,9 @@
     echo "<header>Pagina principal Uriel</header>";    
     echo "<main>";
     echo "Hola Mundo!!!";
+    ?>
+    <a href="codigo.php?paginaPHP=<?$pagina = basename($_SERVER['SCRIPT_FILENAME']);echo $pagina;?>">Ver el codigo</a>
+    <?
     echo "</main>";
     echo "<footer>";
     echo "&copy urielpalacios";

@@ -58,6 +58,8 @@
 
         <h2>Ambito variables</h2>
         <a href="Ambito.php">Ambito</a>
+        <br>
+            <a href="codigo.php?paginaPHP=<?$pagina = basename($_SERVER['SCRIPT_FILENAME']);echo $pagina;?>">Ver el codigo</a>        
     </main>
     <footer>&copy urielpalacios</footer>
 </body>

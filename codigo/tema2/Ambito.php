@@ -47,6 +47,8 @@
             echo USER;
             //solo se puede boolean, entero, string y float
         ?>
+        <br>
+        <a href="codigo.php?paginaPHP=<?$pagina = basename($_SERVER['SCRIPT_FILENAME']);echo $pagina;?>">Ver el codigo</a>  
     </main>
     <footer>&copy urielpalacios</footer>
 </body>

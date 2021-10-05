@@ -1,4 +1,4 @@
 <?php
     define("USER","uriel");
-    define("MIIP","10.1.100.100");
+    define("MIIP","10.1.100.100");    
 ?>

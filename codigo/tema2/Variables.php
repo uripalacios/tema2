@@ -129,9 +129,10 @@
                     echo "No hay nombre";
 
                 //SI esta bien programado el htmml
-                $_GET['idioma'];
+                $_GET['idioma'];                
             ?>
-        </main>
+             <br>
+             <a href="codigo.php?paginaPHP=<?$pagina = basename($_SERVER['SCRIPT_FILENAME']);echo $pagina;?>">Ver el codigo</a>
     <footer>&copy urielpalacios</footer>
 </body>
 </html>
