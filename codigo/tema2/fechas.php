@@ -42,6 +42,35 @@
         echo date('d-m-y h:i:s', $cumple2);
         echo "<p>";
         echo date('d-m-y h:i:s', $cumple3);
+        echo "<p>";
+        //Sumar fechas
+        
+        $hoy = time();
+        echo date('d-m-y h:i:s', strtotime("+ 1 day"));
+
+        echo "<p>";
+        echo date('d-m-y h:i:s', strtotime("+ 1 week 2 hours"));
+        echo "<p>";
+        echo date('d-m-y h:i:s', strtotime("next Monday"));
+        echo "<p>";
+        //Para realizar la diferencia entre fechas y sacar los dias se haria con objetos
+        // echo "<p>";
+        // $diaObjeto = new Datetime();
+        // $diaObjeto2 = new Datatime('2021-01-01');        
+        // echo ($diaObjeto2->diff($diaObjeto))->format('%R%a days');
+
+        //
+        $diaMKtime = mktime(5,42,50,10,6,2021);
+        echo "<p>";
+        echo date('d-m-y h:i:s',$diaMKtime);
+        echo "<p>";
+        //
+        print_r(getdate());
+        echo "<p>";
+        //para acceder a uno de los datos del array generado
+        $arrayfecha = getdate();
+        echo $arrayfecha['wday'];
+
     ?>
 
     <br>
